@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/fragment_Inicio"
+            android:icon="@drawable/ic_home"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/fragment_informacion"
+            android:icon="@drawable/ic_information"
+            android:title="Informaciòn" />
+        <item
+            android:id="@+id/fragment_Perfil"
+            android:icon="@drawable/ic_account"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/fragment_notas"
+            android:icon="@drawable/ic_grades"
+            android:title="Notas" />
+        <item
+            android:id="@+id/fragment_Codigos"
+            android:icon="@drawable/ic_codigo"
+            android:title="Codigos" />
+
+    </group>
+</menu>

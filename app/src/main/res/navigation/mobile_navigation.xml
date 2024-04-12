@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ricardo.galvez.actividadri.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="ricardo.galvez.actividadri.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="ricardo.galvez.actividadri.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/fragment_Codigos"
+        android:name="ricardo.galvez.actividadri.fragment_Codigos"
+        android:label="Codigos"
+        tools:layout="@layout/fragment__codigos" />
+    <fragment
+        android:id="@+id/fragment_Perfil"
+        android:name="ricardo.galvez.actividadri.fragment_Perfil"
+        android:label="Perfil"
+        tools:layout="@layout/fragment__perfil" />
+    <fragment
+        android:id="@+id/fragment_notas"
+        android:name="ricardo.galvez.actividadri.fragment_notas"
+        android:label="Notas"
+        tools:layout="@layout/fragment_notas" />
+    <fragment
+        android:id="@+id/fragment_informacion"
+        android:name="ricardo.galvez.actividadri.fragment_informacion"
+        android:label="Informaciòn"
+        tools:layout="@layout/fragment_informacion" />
+    <fragment
+        android:id="@+id/fragment_Inicio"
+        android:name="ricardo.galvez.actividadri.fragment_Inicio"
+        android:label="Inicio"
+        tools:layout="@layout/fragment__inicio" />
+</navigation>
